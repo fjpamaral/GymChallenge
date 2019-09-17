@@ -4,28 +4,23 @@
 *** Request ou abra uma Issue com a tag "sugestão".
 *** Obrigado novamente! Agora vamos rodar esse projeto incrível :D
 -->
-
 <!-- PROJECT SHIELDS -->
 [![GitHub issues](https://img.shields.io/github/issues-raw/fjpamaral/GymChallenge.svg)](https://github.com/fjpamaral/GymChallenge/issues)
 [![GitHub last commit](https://img.shields.io/github/last-commit/fjpamaral/GymChallenge.svg)](https://github.com/fjpamaral/GymChallenge/commits/master)
 
 <!-- PROJECT TITLE -->
-<br />
 <p align="center">
-  <h3 align="center">GymPass Challenge</h3>
+  <h3 align="center">GymPass Challenge</h1>
 </p>
 
 <!-- TABLE OF CONTENTS -->
-
 ## Tabela de Conteúdo
 
 - [Tabela de Conteúdo](#tabela-de-conte%C3%BAdo)
 - [Sobre o Projeto](#sobre-o-projeto)
   - [Feito Com](#feito-com)
-- [Começando](#come%C3%A7ando)
-  - [Pré-requisitos](#pr%C3%A9-requisitos)
-  - [Estrutura de Arquivos](#estrutura-de-arquivos)
-  - [Instalação](#instala%C3%A7%C3%A3o)
+- [Estrutura de Arquivos](#estrutura-de-arquivos)
+- [Instalação](#instala%C3%A7%C3%A3o)
 - [Contribuição](#contribui%C3%A7%C3%A3o)
 - [Contato](#contato)
 
@@ -33,7 +28,7 @@
 
 ## Sobre o Projeto
 
-Este projeto visa a criação de um template que possa ser utilizado no momento de criação de projetos utilizando React Native, visto que o processo de instalação e configuração das libs no início de um projeto podem gerar certa complexidade e muitas vezes até erros que atrasam o processo, atrapalhando assim o fluxo de desenvolvimento.
+Este projeto visa atender ao desafio GymPass utilizando React Native.
 
 ### Feito Com
 
@@ -63,16 +58,6 @@ Abaixo segue o que foi utilizado na criação deste template:
 - [EditorConfig](https://editorconfig.org/) - O EditorConfig é um formatador de arquivos e coleções em forma de Plugin para Editores de código/texto com o objetivo de manter um padrão de código consistente entre diferentes editores, IDE's ou ambientes;
 
 <!-- GETTING STARTED -->
-
-## Começando
-
-Para conseguir utilizar o template, seja através do React Native CLI ou com uma cópia local dos arquivos, siga os passos abaixo.
-
-### Pré-requisitos
-
-Antes de seguirmos para as configurações e uso do template, é ideal que você tenha o ambiente configurado para criar e testar aplicativos em React Native, para isso você pode seguir o guia do link abaixo:
-
-[Ambiente React Native (Android/iOS)](https://github.com/Rocketseat/ambiente-react-native)
 
 ### Estrutura de Arquivos
 
@@ -109,19 +94,23 @@ GymChallenge
 └── README.md
 ```
 
-Serão explicados os arquivos e diretórios na seção de [Edição](#edição).
-
 ### Instalação
 
-1. Para instalar e utilizar esse template o processo é bem simples, basta criar um projeto novo utilizando o comando:
+1. Para instalar e utilizar esse app o processo é bem simples, basta clonar o repositório utilizando o comando:
 
 ```sh
-react-native init AwesomeExample --template rocketseat-advanced
+git clone https://github.com/fjpamaral/GymChallenge.git
 ```
 
-2. Depois do projeto criado você pode deletar o arquivo `App.js` da raiz, pois o arquivo `index.js` agora aponta para a pasta **src**.
+2. Depois do projeto clonado você pode instalar suas depenências com yarn ou npm.
 
-Com isso o projeto será criado com todas as dependências do template devidamente instaladas e linkadas, tal como os arquivos de configuração que são copiados para o projeto.
+3. Rodar os testes com yarn ou npm.
+
+4. Rodar o app com:
+
+```sh
+react-native run-android
+```
 
 <!-- CONTRIBUTING -->
 
