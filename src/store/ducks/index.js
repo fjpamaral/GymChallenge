@@ -1,8 +1,8 @@
-import { combineReducers } from 'redux';
+import {combineReducers} from 'redux';
+import gym from './gym';
 
 const reducers = combineReducers({
-  // Remova essa linha depois de adicionar seus ducks
-  example: () => [],
+  gym,
 });
 
 export default reducers;
