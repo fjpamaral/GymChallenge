@@ -70,15 +70,26 @@ GymChallenge
 │   │   └── ReactotronConfig.js
 │   ├── pages/
 │   │   └── Main/
-│   │       └── index.js
+│   │   │   └── components/
+│   │   │   │   └── MainItem/
+│   │   │   │   │   └── index.js
+│   │   │   │   │   └── styles.js
+│   │   │   └── index.js
+│   │   │   └── styles.js
 │   ├── services/
 │   │   └── api.js
 │   ├── store/
 │   │   ├── ducks/
 │   │   │   └── index.js
+│   │   │   └── gym.js
 │   │   ├── sagas/
 │   │   │   └── index.js
+│   │   │   └── gym.js
 │   │   └── index.js
+│   ├── styles/
+│   │   │   └── colors.js
+│   │   │   └── index.js
+│   │   │   └── metrics.js
 │   ├── index.js
 │   └── routes.js
 ├── .editorconfig
